@@ -1,5 +1,6 @@
 import React from "react";
 import { Main } from "@/styles/MainStyle";
+import MainCardsProjects from "./MainCardsProjects";
 
 const MainComponent = () => {
   return (
@@ -25,7 +26,7 @@ const MainComponent = () => {
               trabalho.
             </h3>
             <div className="divWrapperCardsProjects">
-                
+                <MainCardsProjects/>
             </div>
           </div>
         </div>
