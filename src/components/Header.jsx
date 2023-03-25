@@ -17,7 +17,7 @@ const HeaderComponent = () => {
   function handleWhatsAppClickLandingPage() {
     const phoneNumber = "5517991843732";
     const message =
-      "Olá, gostaria de falar sobre os seus serviços de advocacia";
+      "Olá, gostaria de falar sobre os serviços de LandingPages";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
