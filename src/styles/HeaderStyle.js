@@ -54,23 +54,20 @@ export const HeaderContent = styled.div`
   box-sizing: border-box;
   color: #fff;
   opacity: 0;
-  animation: ${slideInFromRightAndFadeIn} 1s forwards .5s;
+  animation: ${slideInFromRightAndFadeIn} 1s forwards 0.5s;
 
   @media (min-width: 769px) {
     padding-top: 5rem;
   }
 `;
 
-
 export const LogoSection = styled.section`
   display: flex;
   align-items: center;
 `;
 
-export const LogoText = styled.h1`
-  font-size: 2.4rem;
-  font-weight: bold;
-  margin-left: 0.5rem;
+export const LogoImage = styled(Image)`
+  filter: grayscale(100%) brightness(2) sepia(1) hue-rotate(90deg) saturate(3);
 `;
 
 export const HeaderDescSection = styled.section`
@@ -79,18 +76,19 @@ export const HeaderDescSection = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 2rem;
 `;
 
 export const Title = styled.h2`
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+  
 `;
 
 export const SubTitle = styled.p`
   font-size: 1.4rem;
   margin-bottom: 3rem;
+  
 `;
 
 export const ContactButton = styled.button`

@@ -17,6 +17,16 @@ const MainCardsProjects = () => {
     window.open(link, "_blank");
   };
 
+  function handleWhatsAppClickLandingPage() {
+    const phoneNumber = "5517991843732";
+    const message =
+      "Olá, gostaria de falar sobre os seus serviços de advocacia";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
+  }
+
   return (
     <>
       <StyledSection>
@@ -33,7 +43,7 @@ const MainCardsProjects = () => {
       </StyledSection>
       <ButtonBox>
         <GreenArrow />
-        <ContactButton>
+        <ContactButton onClick={handleWhatsAppClickLandingPage} >
           <ContactButtonIcon
             src="whatsapp.svg"
             alt="WhatsApp Icon"
