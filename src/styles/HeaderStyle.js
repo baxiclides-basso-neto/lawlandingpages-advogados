@@ -4,7 +4,8 @@ import InternetImg from "../../public/internet.webp";
 
 export const HeaderWrapper = styled.div`
   position: relative;
-  min-height: 60vh;
+  min-height: 100vh;
+  
 `;
 
 export const BackgroundImage = styled.div`
@@ -50,7 +51,7 @@ export const HeaderContent = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 2rem 0.5rem;
+  padding: 1rem 0.5rem;
   box-sizing: border-box;
   color: #fff;
   opacity: 0;
@@ -82,13 +83,11 @@ export const Title = styled.h2`
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  
 `;
 
 export const SubTitle = styled.p`
   font-size: 1.4rem;
   margin-bottom: 3rem;
-  
 `;
 
 export const ContactButton = styled.button`

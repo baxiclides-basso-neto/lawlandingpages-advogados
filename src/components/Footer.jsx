@@ -1,6 +1,7 @@
 import React from "react";
-import { StyledFooter } from "@/styles/FooterStyle";
+import { StyledFooter, SpanFooter } from "@/styles/FooterStyle";
 import Image from "next/image";
+import Link from "next/link";
 
 export const FooterComponent = () => {
   return (
@@ -8,25 +9,45 @@ export const FooterComponent = () => {
       <h3>
         Maximize seu potencial online com nossas landing pages de sucesso.
       </h3>
-
       <div>
+        <Link href="https://wa.me/5517991843732?text=Olá!">
+          <div>
+            <Image
+              src="whatsapp.svg"
+              alt="Ícone do WhatsApp"
+              width={20}
+              height={20}
+            />
+            <SpanFooter>(17) 99184-3732</SpanFooter>
+          </div>
+        </Link>
         <div>
-          <Image
-            src="phone-solid.svg"
-            alt="Íconte do telefone"
-            width={20}
-            height={20}
-          />
-          <span>(17) 99184-3732</span>
+          <Link href="mailto:lawlandingpages@gmail.com.br">
+            <div>
+              <Image
+                src="envelope-solid.svg"
+                alt="Ícone do e-mail"
+                width={20}
+                height={20}
+              />
+              <SpanFooter>lawlandingpages@gmail.com.br</SpanFooter>
+            </div>
+          </Link>
         </div>
         <div>
-          <Image
-            src="envelope-solid.svg"
-            alt="Íconte do telefone"
-            width={20}
-            height={20}
-          />
-          <span>lawlandingpages@gmail.com.br</span>
+          <Link href="https://www.instagram.com/baxiclides_basso_neto/">
+            <div>
+              <Image
+                src="square-instagram.svg"
+                alt="Ícone do Instagram"
+                width={20}
+                height={20}
+              />
+              <SpanFooter>
+                https://www.instagram.com/baxiclides_basso_neto/
+              </SpanFooter>
+            </div>
+          </Link>
         </div>
         <h2>
           Instalação de Global Site Tag e Tag de Conversão com otimização de
