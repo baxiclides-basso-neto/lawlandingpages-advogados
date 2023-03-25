@@ -9,7 +9,7 @@ const MainComponent = () => {
       <section>
         <div className="mainWrapper">
           <div className="divHeader">
-            <h1>SUA LANDING PAGE ENTREGUE E PUBLICADA!</h1>
+            <h1>SUA LANDING PAGE ENTREGUE E PUBLICADA! SOMOS UMA EQUIPE DE PROGRAMADORES PROFISSIONAIS!</h1>
             <h3>
               Instalação de Global Site Tag e Tag de Conversão com otimização de
               velocidade em até 4 dias úteis!

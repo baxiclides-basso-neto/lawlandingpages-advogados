@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const Main = styled.main`
   color: #006400;
   background-color: #f8f8f8;
-
+  
   .mainWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
@@ -16,5 +18,10 @@ export const Main = styled.main`
     margin-bottom: 3rem;
     color: #006400;
     border-top: 4px solid #006400;
+  }
+
+  .divCardsProjects >h3 {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 `;

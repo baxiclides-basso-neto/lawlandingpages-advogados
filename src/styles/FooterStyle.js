@@ -11,11 +11,25 @@ export const StyledFooter = styled.footer`
   color: white;
   padding: 2rem 1rem;
 
-  >div{
-    display: flex;
-    flex: row;
-    gap:.5rem;
-    margin-bottom: .5rem;
+  h3{
+    margin-bottom: 2rem;
+  }
 
+  > div {
+    @media(min-width: 769px){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    div {
+      display: flex;
+      flex: row;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p{
+      margin-top: 0;
+    }
   }
 `;
