@@ -2,6 +2,7 @@ import Project1 from "../../public/Project1.png";
 import Project2 from "../../public/Project2.png";
 import Project3 from "../../public/Project3.png";
 import Project4 from "../../public/Project4.png";
+import Project5 from "../../public/Project5.png";
 
 export const CardsArray = [
   {
@@ -31,5 +32,12 @@ export const CardsArray = [
     alt: "Projeto4",
     title: "Dr. Ricardo Oliveira Junior",
     link: "https://oliveiraadvogados-app.vercel.app/"
+  },
+  {
+    id: 5,
+    image: Project5,
+    alt: "Projeto5",
+    title: "Dr. Paulo Santos Ventura",
+    link: "https://venturasadvogados-app-baxiclides-basso-neto.vercel.app/"
   },
 ];
