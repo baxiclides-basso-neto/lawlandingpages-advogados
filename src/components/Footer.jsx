@@ -44,7 +44,7 @@ export const FooterComponent = () => {
                 height={20}
               />
               <SpanFooter>
-                https://www.instagram.com/baxiclides_basso_neto/
+              https://www.instagram.com/lawlandingpages/
               </SpanFooter>
             </div>
           </Link>
