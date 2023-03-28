@@ -35,7 +35,7 @@ export const FooterComponent = () => {
           </Link>
         </div>
         <div>
-          <Link href="https://www.instagram.com/baxiclides_basso_neto/">
+          <Link href=" https://www.instagram.com/lawlandingpages/">
             <div>
               <Image
                 src="square-instagram.svg"
